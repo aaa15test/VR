@@ -1,0 +1,9 @@
+{  
+    "public": { 
+       "tokbox": {
+           "apiKey": "46419222", 
+           "apiSecret": "0a41b6317d25de32b62679c2cc368c03657ea296"
+        } 
+     },  
+    "private": {}
+    }

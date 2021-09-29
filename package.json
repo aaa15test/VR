@@ -1,0 +1,49 @@
+{
+  "name": "vr_project_video",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node -e \"console.log('open browser at http://localhost:8081/vr/\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
+    "bundle": "node node_modules/react-vr/scripts/bundle.js",
+    "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
+    "devtools": "react-devtools",
+    "test": "jest"
+  },
+  "dependencies": {
+    "annyang": "^2.6.1",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "ovrui": "~2.0.0",
+    "react": "^16.0.0",
+    "react-instantsearch-native": "^5.7.0",
+    "react-liowebrtc": "^1.2.7",
+    "react-native": "~0.48.0",
+    "react-native-speech": "^0.1.2",
+    "react-native-voice": "^0.3.0",
+    "react-native-webrtc": "^1.75.0",
+    "react-player": "^1.12.0",
+    "react-twilio-video": "^1.1.16",
+    "react-video-chat": "^1.0.0-alpha.1",
+    "react-vr": "~2.0.0",
+    "react-vr-web": "~2.0.0",
+    "react-window-size": "^1.2.2",
+    "rtcpeerconnection": "^8.4.0",
+    "simple-peer": "^9.5.0",
+    "socket.io": "^2.2.0",
+    "three": "^0.87.0",
+    "twilio": "^3.34.0",
+    "twilio-video": "^2.0.0-beta13",
+    "webrtc-video-room": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "babel-preset-react-native": "^1.9.1",
+    "jest": "^19.0.2",
+    "react-devtools": "^2.5.2",
+    "react-test-renderer": "16.0.0",
+    "xopen": "1.0.0"
+  },
+  "jest": {
+    "preset": "react-vr"
+  }
+}

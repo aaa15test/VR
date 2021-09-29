@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>vr_project_video</title>
+    <style>body { margin: 0; }</style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>    
+    <!-- When you're ready to deploy your app, update this line to point to your compiled client.bundle.js -->
+    <script src="./client.bundle.js?platform=vr"></script>
+    <script src="../scripts/annyang.js"></script>
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <script>
+      function test() {
+        alert('Function from index.html');
+      }
+
+      // Initialize the React VR application
+      ReactVR.init(
+        // When you're ready to deploy your app, update this line to point to
+        // your compiled index.bundle.js
+        './index.bundle.js?platform=vr',
+        // Attach it to the body tag
+        document.body
+      );
+    </script>
+
+    <!-- Video chat -->
+    <div style="position: absolute; top: 5%; left: 0; ">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span> 
+          <ul id="menu">
+            <div class="copy">
+              Send your URL to a friend to start a video call
+            </div>
+            <li><video class="my-video" id="localVideo" autoplay muted></video></li>
+            <li><video class="friend-video" id="remoteVideo" autoplay></video></li>
+          </ul>  
+        </div>
+      </nav>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
+

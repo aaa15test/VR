@@ -1,0 +1,11 @@
+{
+    "expo": {
+        "name":"vr-project",
+        "description":"some description about our project",
+        "sdkVersion": "27.0.0",
+        "android":{
+            "package":"com.johncy.vr-project",
+            "versionCode":1 
+        }
+    }
+}

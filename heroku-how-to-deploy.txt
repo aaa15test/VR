@@ -1,0 +1,14 @@
+heroku login
+git init && git add . && git commit -m 'Your commit name'
+git push heroku master
+
+// if you don't create heroku app
+heroku create && git push heroku master
+
+//if error
+git push heroku HEAD:master --force
+
+
+Links:
+https://gist.github.com/kany/678599984a75cd3cf428463427fb84fd
+https://medium.com/@evansjwang/how-to-deploy-react-vr-to-heroku-6e8e9ba06339
