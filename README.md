@@ -1,4 +1,4 @@
-# Virtual-reality-speech-recognition-video-chat-
+# Virtual reality with speech recognition and video chat
 
 You can follow the link for testing https://react-vr-video.herokuapp.com/ (loading the page may take time).
 
