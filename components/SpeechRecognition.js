@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   asset,
-  Text,
   Image,
   View,
   NativeModules,

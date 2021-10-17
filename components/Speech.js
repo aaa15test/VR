@@ -1,6 +1,5 @@
 import React from 'react';
 import SpeechRecognition from './SpeechRecognition.js';
-import SpeechResults from './SpeechResults.js';
 import { View } from 'react-vr';
 
 export default class Speech extends React.Component {
