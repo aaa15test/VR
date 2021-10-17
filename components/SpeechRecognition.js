@@ -47,8 +47,7 @@ export default class SpeechRecognition extends React.Component {
             width: 0.2,
             height: 0.3,
             overflow: 'visible',
-            borderRadius: 0.2,
-          // transform: [{ translate: [ this.props.x, 0, 0 ] }]
+            borderRadius: 0.2
           }} 
         />
       );
@@ -59,7 +58,6 @@ export default class SpeechRecognition extends React.Component {
         style={{
           position: 'absolute',
           height: 2
-          // transform: [{ translate: [ 0.25, 0.5, 0.25 ] }]
       }}>
         {output}
       </View>

@@ -22,19 +22,15 @@ export default class Speech extends React.Component {
         outputHandler={this.speechRetriever.bind(this)} 
       />
 
-    console.log(this.state.spokenWords, 'this.state.spokenWords')
-
     return (
       <View 
         style={{
           position: 'absolute',
-          // transform: [{ translate: [ -0.5, 0.5, 0 ] }],
           flexDirection: 'row',
           height: 10
         }}
       >       
         { microphoneSymbol }
-        {/* <SpeechResults results={ this.state.spokenWords } /> */}
       </View>
     );
   }
